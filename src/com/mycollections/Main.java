@@ -53,6 +53,7 @@ public class Main {
         storage.put("words", words);
         storage.put("sentences", sentences);
 
+        // Print.
         for(Map.Entry<String, ArrayList<String>> parts : storage.entrySet()) {
             System.out.println(parts.getKey() + " " + parts.getValue());
         }
